@@ -1,8 +1,13 @@
+<!-- DEVELOPER: Johnny Yu, IS117-011, Summer 2024 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/format.css">
+    <script src="../js/bootstrap.min.js"></script>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Contact Me</title>
 </head>
 <nav class=" navbar navbar-expand-sm navbar-light bg-light justify-content-center">
     <div class="container-fluid">
@@ -14,7 +19,7 @@
                 <a class="nav-link" href="../html/proj.html">Projects</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../html/contact_me.html">Contacts</a>
+                <a class="nav-link disabled" href="../html/contact_me.html">Contacts</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="../html/about_me.html">About Me</a>
@@ -23,7 +28,22 @@
     </div>
 </nav>
 <body class="container p-5 bg-primary-custom text-white">
-
+    <div class="container mt-3 text-bg-light">
+        <p>Actually interested in my work? Got any questions? Feel free to contact me with below or use the form to submit it directly to me!</p>
+    </div>
+    <div class="container-fluid">
+        <p>Github: Johnnyyu3 </br></p>
+        <p>Email: johnny.y.yu@outlook.com </br></p>
+    </div>
+    <div>
+        <p> Note: this Form is still under construction-- might not actually work</p>
+    </div>
+    <form >
+                <input type="text" class="form-control" placeholder="Enter email" name="email">
+            <label for="comment">Comments:</label>
+            <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+        <button type="submit" class="btn btn-primary ">Submit</button>
+    </form>
 </body>
 <footer>
     &copy; 2024 Johnny Yu, All Rights Reserved.
