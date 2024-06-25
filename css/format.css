@@ -13,3 +13,7 @@
 .send-to-right {
     float: right;
 }
+
+.img-center {
+    float: none;
+}
